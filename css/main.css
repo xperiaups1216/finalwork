@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	color: brown;
+	
+}
+
+h3{
+	color: blueviolet;	
+}
+
+.house{
+	height: 20px;
+	width: 20px;
+	
+}
+
+.bike{
+	height: 20px;
+	width: 20px;
+	
+}
+
+.loca{
+	color: red;
+	font-weight: bold;
+	
+}
+
+.block{
+	text-align:center;	
+
+}
+.block1{
+	height: 301px;
+	
+}
+
+.block2{
+	height: 314px;
+	
+}

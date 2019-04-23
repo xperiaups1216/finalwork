@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首頁</title>
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link href="image/icon.ico" rel="SHORTCUT ICON">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="container">
+  <header>
+    <a href="index.html"><img src="image/title.png" alt="title" id="title"></a>
+    <nav>
+      <ul>
+       <li class="bkmk"><a href="main.html">旅程大綱</a></li>
+        <li class="bkmk"><a>旅行日程</a>
+        	<ul>
+       		    <li class="bkmk"><a href="day1.html">第一天</a></li>
+                <li class="bkmk"><a href="day2.html">第二天</a></li>
+                <li class="bkmk"><a href="day3.html">第三天</a></li>
+                <li class="bkmk"><a href="day4.html">第四天</a></li>
+                <li class="bkmk"><a href="day5.html">第五天</a></li>
+                <li class="bkmk"><a href="day6.html">第六天</a></li>
+                <li class="bkmk"><a href="day7.html">第七天</a></li>
+        	</ul>
+        </li>
+        <li class="bkmk"><a href="staynight.html">住宿地點</a></li>
+        <li class="bkmk"><a href="about.html">關於我</a></li>
+        <li class="bkmk"><a href="description.html">網站說明</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="mid">
+  <figure>
+    <img src="image/index_pic.jpg" width="900" height="300" alt="悠閒" title="台灣好行"/>
+    <figcaption>我的環島計畫</figcaption>
+  </figure>
+  </div><br>
+  <footer>
+  	Copyright 2017. All Rights Reserved.
+  </footer>
+</div>
+<img  id="goTop" src="http://4.bp.blogspot.com/-28LaVG5DtBo/VQ_XOQosQQI/AAAAAAAALY4/T4uKguB0Ttk/s100/up-button.png" title="Back to Top"/>
+
+<!-- Go Top 按鈕+動畫 end, Designed by WFU BLOG -->
+<script>
+$.extend($.easing, {
+easeOutExpo: function (x, t, b, c, d) {
+return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+}
+});
+$("#goTop").click(function(){
+$("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
+});
+	</script>
+</body>
+</html>

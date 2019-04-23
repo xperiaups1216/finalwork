@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>旅行日程-第六天</title>
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link href="css/day6.css" type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<link href="image/icon.ico" rel="SHORTCUT ICON">
+</head>
+
+<body>
+<div id="container">
+  <header>
+    <a href="index.html"><img src="image/title.png" alt="title" id="title"></a>
+    <nav>
+      <ul>
+       <li class="bkmk"><a href="main.html">旅程大綱</a></li>
+        <li class="bkmk"><a>旅行日程</a>
+        	<ul>
+       		    <li class="bkmk"><a href="day1.html">第一天</a></li>
+                <li class="bkmk"><a href="day2.html">第二天</a></li>
+                <li class="bkmk"><a href="day3.html">第三天</a></li>
+                <li class="bkmk"><a href="day4.html">第四天</a></li>
+                <li class="bkmk"><a href="day5.html">第五天</a></li>
+                <li class="bkmk"><a href="day6.html">第六天</a></li>
+                <li class="bkmk"><a href="day7.html">第七天</a></li>
+        	</ul>
+        </li>
+        <li class="bkmk"><a href="staynight.html">住宿地點</a></li>
+        <li class="bkmk"><a href="about.html">關於我</a></li>
+        <li class="bkmk"><a href="description.html">網站說明</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section>
+  
+   <div class="block1">
+	   <h1><a name="七星潭">七星潭 Chishingtan Scenic Area</a></h1>
+    <p>地址:<a href="https://goo.gl/maps/4ChgGsSXXo42" target="_blank">花蓮縣新城鄉</a></p>
+	<p>相關網站連結:<a href="https://goo.gl/9SOtPu" target="_blank">Tripadvisor介紹</a></p>
+	<p>評價:</p>
+	<p>七星潭是花蓮縣唯一的縣級風景區，乍聽之下似乎是一個星星狀的湖泊地形，但其實這裡沒有潭水，而是一個海灣，
+    完全沒有一般海港的腥臭味，乾淨沒有一點點污染的空氣</p>
+	</div>
+  
+   <hr>
+   
+   	<div class="block1">
+		<h1><a name="太魯閣">太魯閣國家公園 Taroko National Park</a></h1>
+    <p>地址:<a href="https://goo.gl/maps/p1WTeFnfm232" target="_blank">花蓮縣秀林鄉富世村富世291號</a></p>
+	<p>相關網站連結:<a href="https://goo.gl/sjXDB9" target="_blank">Tripadvisor介紹</a></p>
+	<p>評價:</p>
+	<p>太魯閣國家公園，從中橫公路太魯閣至天祥長，這裡並沒有過度開發，沿途都是雄偉壯麗的大理石峽谷景觀，地勢高聳山巒起起伏，非常的壯觀</p>
+	</div>
+  
+   <hr> 
+   
+   
+   	<div class="block1">
+		<h1><a name="幾米公園">幾米公園 Jimi Square</a></h1>
+    <p>地址:<a href="https://goo.gl/maps/kUs33MFhaHr" target="_blank">宜蘭縣宜蘭市宜興路一段240號</a></p>
+	<p>相關網站連結:<a href="https://goo.gl/FIzoMn" target="_blank">Tripadvisor介紹</a></p>
+	<p>評價:</p>
+	<p>宜蘭車站出站往左走幾分鐘即達。有幾個著名幾米作品的美術作品，向左走向右走，地下鐵等，是一個有童心的地方</p>
+	</div>
+  
+   <hr>   
+                    
+  </section>
+  
+  <aside>
+  
+  <div class="block2">
+  	<figure>
+		<div id="a1"></div>
+  	<figcaption>七星潭</figcaption>
+    </figure>
+ </div>  
+    
+  <hr>
+  
+   <div class="block2">             
+  	<figure>
+		<div id="a2"></div>
+  	<figcaption>太魯閣國家公園
+
+</figcaption>
+    </figure>
+	  </div>
+	  
+  <hr>
+  
+    <div class="block2">
+	<figure>
+		<div id="a3"></div>
+  	<figcaption>幾米公園
+
+</figcaption>
+    </figure>
+</div>    
+    
+  <hr>
+
+  </aside><br>
+  <footer>
+  	Copyright 2017. All Rights Reserved.
+  </footer>
+</div>
+<img  id="goTop" src="http://4.bp.blogspot.com/-28LaVG5DtBo/VQ_XOQosQQI/AAAAAAAALY4/T4uKguB0Ttk/s100/up-button.png" title="Back to Top"/>
+
+<!-- Go Top 按鈕+動畫 end, Designed by WFU BLOG -->
+<script>
+$.extend($.easing, {
+easeOutExpo: function (x, t, b, c, d) {
+return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+}
+});
+$("#goTop").click(function(){
+$("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
+});
+	</script>
+</body>
+</html>

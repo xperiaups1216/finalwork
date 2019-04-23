@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>關於我</title>
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link href="css/aboutme.css" type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<link href="image/icon.ico" rel="SHORTCUT ICON">
+</head>
+
+<body>
+<div id="container">
+  <header>
+    <a href="index.html"><img src="image/title.png" alt="title" id="title"></a>
+    <nav>
+      <ul>
+       <li class="bkmk"><a href="main.html">旅程大綱</a></li>
+        <li class="bkmk"><a>旅行日程</a>
+        	<ul>
+       		    <li class="bkmk"><a href="day1.html">第一天</a></li>
+                <li class="bkmk"><a href="day2.html">第二天</a></li>
+                <li class="bkmk"><a href="day3.html">第三天</a></li>
+                <li class="bkmk"><a href="day4.html">第四天</a></li>
+                <li class="bkmk"><a href="day5.html">第五天</a></li>
+                <li class="bkmk"><a href="day6.html">第六天</a></li>
+                <li class="bkmk"><a href="day7.html">第七天</a></li>
+        	</ul>
+        </li>
+        <li class="bkmk"><a href="staynight.html">住宿地點</a></li>
+        <li class="bkmk"><a href="about.html">關於我</a></li>
+        <li class="bkmk"><a href="description.html">網站說明</a></li>
+      </ul>
+    </nav>
+  </header>
+<div id="aboutme">
+	<h1>我是誰?</h1>
+    <p>我是劉東霖，目前為本校資訊科技系二甲學生，跨系選修媒計系的網站建置課程。</p>
+    
+    <h1>為什麼選擇了網站建置?</h1>
+	<p>本人雖然是資科系學生但是對於程式設計很苦手，不過對於設計網站部分還興趣的，礙於系上對於網站課程的教學大多著重在程式部分，對於CSS美化這個區塊較無特別做教學，<br>
+    於是選擇了媒計系的課程來進修更多有關網站的知識，也如願在這學期中學到了許多在本系沒學到的東西，例如BOX Model、animation語法，讓我在未來製作網頁上能使用更多資源。</p>
+    
+    <h1>關於環島計畫</h1>
+	<p>6/26星期一暑假的第一天，我和另外兩位高中同學規畫為期七天的環島旅行，三人三台機車從台北的母校復興高中出發，依序停留在台中、台南、高雄、台東、花蓮以及宜蘭，雖然不知道能不能依照預定行程跑完全部行程，但希望在這一個大學暑假中留下一個特別的回憶。</p>
+
+</div>
+  <footer>
+  	Copyright 2017. All Rights Reserved.
+  </footer>
+</div>
+<img  id="goTop" src="http://4.bp.blogspot.com/-28LaVG5DtBo/VQ_XOQosQQI/AAAAAAAALY4/T4uKguB0Ttk/s100/up-button.png" title="Back to Top"/>
+
+<!-- Go Top 按鈕+動畫 end, Designed by WFU BLOG -->
+<script>
+$.extend($.easing, {
+easeOutExpo: function (x, t, b, c, d) {
+return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+}
+});
+$("#goTop").click(function(){
+$("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
+});
+	</script>
+</body>
+</html>
